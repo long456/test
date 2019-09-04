@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#title{
+    background: #edf2fc;
+    min-height: 30px;
+    border-bottom: 1px solid rgba(36,123,198,0.15);
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: #666;
+}
+#logo{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+    background-image: url("https://d2hkcehpyog59.cloudfront.net/3115f3e4c221acb12a1cd87ad613d6011f85e805/wl_icon.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-top: 10px;
+}
+#base{
+max-width: 370px;
+height: 250px;
+margin: 30px auto 20px auto;
+padding: 0 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+box-shadow: 0 1px 3px rgba(50,50,50,0.08);
+border-radius: 4px;
+font-size: 16px;
+}
+.login_row{
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+.login_row input{
+    flex: 1;
+    border: none;
+    outline: none;
+
+}
+button{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 11px 10px;
+    border-radius: 3px;
+    margin: 18px auto;
+    font-weight: bold;
+    outline: none;
+}
